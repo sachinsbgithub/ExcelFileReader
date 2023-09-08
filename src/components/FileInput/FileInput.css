@@ -1,0 +1,51 @@
+.file-input {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.drop-zone {
+  height: 200px;
+  border: 1px solid rgb(7, 36, 92);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: warp;
+  color: blue;
+  margin: 20px;
+}
+.drop-zone:hover {
+  cursor: pointer;
+}
+input {
+  display: none;
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 82%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.file-types h3 {
+  margin: 4px;
+  display: inline !important;
+  color: green;
+}
